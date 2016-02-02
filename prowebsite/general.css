@@ -1,0 +1,326 @@
+html {height: 100%;overflow-x: hidden;overflow-y: hidden;}
+
+body {
+	min-width:100%;
+	min-height:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-color:#CCCCCC;
+}
+
+.header, .firstcolumn, .about, .aboutmob, .secondcolumn, .prog, .geol, .rescue, .anim, .travel, .footer {
+ 	display:inline-block;
+ 	vertical-align:top;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.blockheader, .blockabout, .blockaboutmob, .blockprog, .blockgeol, .blockrescue, .blockanim, .blocktravel, .blockfooter {    
+	display:inline-block;
+    vertical-align:middle;
+	background-color:#323232;
+	text-align:center;
+	/* Coins arrondis */
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	/* Transitions CSS */
+	-webkit-transition-property: width,height,background-color;
+	-webkit-transition-duration: 0.1s;
+	-webkit-transition-timing-function: ease-in;
+}
+
+.blocktitle {
+	font-family: verdana, sans-serif;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.blocktext {
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:left;
+	font-weight:normal;
+	font-variant:normal;
+}
+
+/*******************************************************************************************************************************************/
+/************************************************************ SMARTPHONES-MINI *************************************************************/
+/*******************************************************************************************************************************************/
+
+@media (max-width: 359px) {
+
+.content { 
+	width :300px;
+	height:450px;
+	margin: auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header{width:300px;height:45px;line-height:45px;}
+.blockheader{width:290px;height:35px;line-height:normal;}
+
+.firstcolumn {display:none;}
+.about{display:none;}
+.blockabout{display:none;}
+
+.secondcolumn{width:300px;height:360px;}
+.aboutmob,.prog{width:300px;height:80px;line-height:80px;}
+.blockaboutmob,.blockprog{width:290px;height:70px;line-height:normal;}
+.geol, .rescue, .anim, .travel{width:300px;height:50px;line-height:50px;}
+.blockgeol, .blockrescue, .blockanim, .blocktravel{width:290px;height:40px;line-height:normal;}
+
+.footer {width:300px;height:45px;line-height:45px;}
+.blockfooter{width:290px;height:35px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover{width:295px;height:75px;background-color:#797979;}
+.blockgeol:hover,.blockrescue:hover,.blockanim:hover,.blocktravel:hover{width:295px;height:45px;background-color: #797979;}
+
+}
+
+/*******************************************************************************************************************************************/
+/************************************************************ SMARTPHONES ******************************************************************/
+/*******************************************************************************************************************************************/
+
+@media (min-width: 360px) and (max-width: 519px) {
+
+.content { 
+	width :360px;
+	height:500px;
+	margin: auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header{width:360px;height:90px;line-height:90px;}
+.blockheader{width:340px;height:80px;line-height:normal;}
+
+.firstcolumn {display:none;}
+.about{display:none;}
+.blockabout{display:none;}
+
+.secondcolumn{width:360px;height:360px;}
+.aboutmob,.prog{width:180px;height:140px;line-height:140px;}
+.blockaboutmob,.blockprog{width:160px;height:130px;line-height:normal;}
+.geol, .rescue, .anim, .travel{width:180px;height:110px;line-height:110px;}
+.blockgeol, .blockrescue, .blockanim, .blocktravel{width:160px;height:100px;line-height:normal;}
+
+.footer {width:360px;height:60px;line-height:60px;}
+.blockfooter{width:340px;height:50px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover {width:170px;height:135px;background-color:#797979;}
+.blockgeol:hover, .blockrescue:hover,.blockanim:hover,.blocktravel:hover {width:170px;height: 105px;background-color:#797979;}
+
+}
+
+
+/*******************************************************************************************************************************************/
+/********************************************************* SMARTPHONE PAYSAGE **************************************************************/
+/*******************************************************************************************************************************************/
+@media (min-width: 520px) and (max-width: 768px) {
+
+.content { 
+	width :500px;
+	height:320px;
+	margin:auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header{width:90px;height:320px;line-height:320px;}
+.blockheader{width:80px;height:310px;line-height:normal;}
+
+.firstcolumn {display:none;}
+.about{display:none;}
+.blockabout{display:none;}
+
+.secondcolumn{width:360px;height:320px;}
+.aboutmob,.prog,.geol{width:110px;height:160px;line-height:160px;}
+.blockaboutmob,.blockprog,.blockgeol{width:100px;height:150px;line-height:normal;}
+.rescue, .anim, .travel{width:110px;height:160px;line-height:160px;}
+.blockrescue, .blockanim, .blocktravel{width:100px;height:150px;line-height:normal;}
+
+.footer {width:50px;height:320px;line-height:320px;}
+.blockfooter{width:40px;height:310px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover,.blockgeol:hover{width:105px;height:155px;background-color:#797979;}
+.blockrescue:hover,.blockanim:hover,.blocktravel:hover {width:105px;height:155px;background-color:#797979;}
+/*.blockrescue:hover > div.blocktitle + div#floatingCirclesG{width:100px;height:100px;}
+.blockanim:hover > div.blocktitle + div#floatingCirclesG{width:100px;height:100px;}
+.blocktravel:hover > div.blocktitle + div#floatingCirclesG{width:100px;height:100px;}*/
+}
+
+/*******************************************************************************************************************************************/
+/******************************************************** TABLETTE ET ECRANS REDUITS *******************************************************/
+/*******************************************************************************************************************************************/
+
+@media (min-width: 769px) and (max-width: 975px) {
+
+.content { 
+	width :769px;
+	height:600px;
+	margin: auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header {width:769px;height:100px;line-height:100px;}
+.blockheader{width:744px;height:90px;line-height:normal;}
+
+.firstcolumn {width:235px;height:440px;}
+.about{width:235px;height:440px;line-height:440px;}
+.blockabout{width:210px;height:430px;line-height:normal;}
+
+.secondcolumn{width:534px;height:440px;}
+.aboutmob{display:none;}
+.blockaboutmob{display:none;}
+.prog{width:534px;height:160px;line-height:160px;}
+.blockprog{width:509px;height:150px;line-height:normal;}
+.geol, .rescue, .anim, .travel{width:267px;height:140px;line-height:140px;}
+.blockgeol, .blockrescue, .blockanim, .blocktravel{width:242px;height:130px;line-height:normal;}
+
+.footer {width:769px;height:60px;line-height:60px;}
+.blockfooter{width:744px;height:45px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover {
+	width:520px;
+	height:155px;
+	background-color:#797979;
+}
+
+.blockgeol:hover, .blockrescue:hover,.blockanim:hover,.blocktravel:hover {
+	width:250px;
+	height:135px;
+	background-color:#797979;
+}
+
+.blocktext {font-size: 14px;}
+
+}
+
+/*******************************************************************************************************************************************/
+/************************************************************ ECRANS CLASSIQUES ************************************************************/
+/*******************************************************************************************************************************************/
+
+@media (min-width: 976px) and (max-width: 1299px) {
+
+.content { 
+	width :975px;
+	height:600px;
+	margin: auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header {width:975px;height:100px;line-height:100px;}
+.blockheader{width:950px;height:90px;line-height:normal;}
+
+.firstcolumn {width:305px;height:440px;}
+.about{width:305px;height:440px;line-height:440px;margin:0;padding:0;border:0 none;overflow-x:hidden;overflow-y:hidden;}
+.blockabout{width:280px;height:430px;line-height:normal;}
+
+.secondcolumn{width:670px;height:440px;}
+.aboutmob{display:none;}
+.blockaboutmob{display:none;}
+.prog{width:670px;height:160px;line-height:160px;}
+.blockprog{width:645px;height:150px;line-height:normal;}
+.geol, .rescue, .anim, .travel{width:335px;height:140px;line-height:140px;}
+.blockgeol, .blockrescue, .blockanim, .blocktravel{width:310px;height:130px;line-height:normal;}
+
+.footer {width:975px;height:60px;line-height:60px;}
+.blockfooter{width:950px;height:45px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover {
+	width:655px;
+	height:155px;
+	background-color: #797979;
+	z-index:1;
+}
+
+/* .blockprog:active {
+	width:900px;
+	height:300px;
+	background-color: #797979;
+	z-index:1;
+} */
+
+.blockgeol:hover, .blockrescue:hover,.blockanim:hover,.blocktravel:hover {
+	width:320px;
+	height:135px;
+	background-color: #797979;
+	z-index:1;
+}
+
+.blockgeol:active, .blockrescue:active,.blockanim:active,.blocktravel:active {
+	width:620px;
+	height:235px;
+	background-color: #797979;
+	z-index:100;
+}
+
+.blocktext {font-size: 16px;}
+
+}
+
+/*******************************************************************************************************************************************/
+/************************************************************ GRANDS ECRANS ****************************************************************/
+/*******************************************************************************************************************************************/
+
+@media (min-width: 1300px) { 
+
+ .content { 
+	width :1300px;
+	height:600px;
+	margin: auto auto;
+	background-color:#CCCCCC;
+	text-align:center;
+}
+
+.header {width:1300px;height:100px;line-height:100px;}
+.blockheader{width:1275px;height:90px;line-height:normal;}
+
+.firstcolumn {width:325px;height:440px;}
+.about{width:325px;height:440px;line-height:440px;}
+.blockabout{width:300px;height:420px;line-height:normal;}
+
+.secondcolumn{width:975px;height:440px;}
+.aboutmob{display:none;}
+.blockaboutmob{display:none;}
+.prog{width:650px;height:220px;line-height:220px;}
+.blockprog{width:625px;height:200px;line-height:normal;}
+.geol, .rescue, .anim, .travel{width:325px;height:220px;line-height:220px;}
+.blockgeol, .blockrescue, .blockanim, .blocktravel{width:300px;height:200px;line-height:normal;}
+
+.footer {width:1300px;height:60px;line-height:60px;}
+.blockfooter{width:1275px;height:45px;line-height:normal;}
+
+ /*********** Transitions CSS *************/
+
+.blockprog:hover {
+	width:635px;
+	height:205px;
+	background-color:#797979;
+}
+
+.blockgeol:hover, .blockrescue:hover,.blockanim:hover,.blocktravel:hover {
+	width:310px;
+	height:205px;
+	background-color:#797979;
+}
+
+ }

@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPShop Paysite Cash\n"
+"POT-Creation-Date: 2015-01-06 12:02+0100\n"
+"PO-Revision-Date: 2015-01-06 12:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Eoxia Dev Team <technique@eoxia.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../controller/wps_paysite_cash_ctr.php:41
+msgid "Paysite Cash"
+msgstr "Paysite Cash"
+
+#: ../controller/wps_paysite_cash_ctr.php:43
+msgid "Paysite Cash Payment Solution"
+msgstr "Solution de paiement Paysite Cash"
+
+#: ../controller/wps_paysite_cash_ctr.php:131
+msgid ""
+"This payment is waiting your validation on Paysite Cash Commercant interface"
+msgstr ""
+"Ce paiement attends votre validation sur l'interface commerçant de Paysite "
+"Cash"
+
+#: ../controller/wps_paysite_cash_ctr.php:176
+msgid "Order amount is greater than 1000 €"
+msgstr "Le montant de la commande est supérieur à 1000 €"
+
+#: ../controller/wps_paysite_cash_ctr.php:179
+msgid "This customer have already made a valid payment on your shop"
+msgstr "Ce cleint a déjà effectué des paiemsnt valides sur votre boutique"
+
+#: ../controller/wps_paysite_cash_ctr.php:182
+msgid ""
+"Others payments have already done with the same customer account e-mail but "
+"with an another credit card"
+msgstr ""
+"D'autres paiements ont déjà été réalisé par un client avec la même adresse e-"
+"mail mais avec une carte bancaire différente"
+
+#: ../controller/wps_paysite_cash_ctr.php:185
+msgid "This customer have already made unpaid payments on your shop"
+msgstr "Ce client a déjà réalisé des impayés"
+
+#: ../controller/wps_paysite_cash_ctr.php:188
+msgid "This credit card is used by an another person"
+msgstr "Cette carte bancaire est utilisée par un tiers"
+
+#: ../controller/wps_paysite_cash_ctr.php:191
+msgid "The credit card owner doesn\\t received the transaction ticket e-mail."
+msgstr ""
+"Le propriétaire de la carte bancaire n'a pas reçu son e-mail contenant le "
+"ticket de paiement"
+
+#: ../controller/wps_paysite_cash_ctr.php:277
+msgid "Paysite Cash Alert"
+msgstr "Alerte Paysite Cash"
+
+#: ../controller/wps_paysite_cash_ctr.php:351
+#, php-format
+msgid "Error: %s"
+msgstr "Erreur : %s"
+
+#: ../controller/wps_paysite_cash_ctr.php:355
+msgid ""
+"Soap functions are not enabled on your server, Please visit Paysite Cash "
+"website to create your account"
+msgstr ""
+"Les fonctionnalités SOAP sont désactivées sur votre serveur. Veuillez vous "
+"rendre sur le site de Paysite Cash pour créer votre compte marchand."
+
+#: ../controller/wps_paysite_cash_ctr.php:360
+#: ../controller/wps_paysite_cash_ctr.php:364
+msgid "Please fill all required informations"
+msgstr "Veuillez renseigner les informations obligatoires"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:1
+msgid "Create your merchant account on Paysite Cash"
+msgstr "Créez votre compte marchand sur Paysite Cash"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:7
+msgid "Status"
+msgstr "Statut"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:10
+msgid "Individual"
+msgstr "Particulier"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:11
+msgid "Company"
+msgstr "Société"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:18
+#: ../templates/backend/paysite_cash_account_informations.php:4
+msgid "Firstname"
+msgstr "Prénom"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:26
+msgid "Lastname"
+msgstr "Nom"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:39
+msgid "Company name"
+msgstr "Nom de société"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:48
+msgid "Registration country"
+msgstr "Pays d'enregistrement"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:62
+msgid "Director's country residence"
+msgstr "Pays du dirigeant"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:77
+msgid "Company Intra-community VAT number"
+msgstr "N° de TVA intra-communautaire"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:87
+msgid "Postal address"
+msgstr "Adresse"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:97
+msgid "ZIP Code"
+msgstr "Code postal"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:105
+#: ../templates/backend/paysite_cash_account_informations.php:8
+msgid "City"
+msgstr "Ville"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:113
+#: ../templates/backend/paysite_cash_account_informations.php:9
+msgid "Country"
+msgstr "Pays"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:131
+msgid "Phone number"
+msgstr "Téléphone"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:139
+msgid "Email address"
+msgstr "Email"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:149
+msgid "Your business short description"
+msgstr "Description courte de votre activité"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:159
+msgid "Desired username"
+msgstr "Nom d'utilisateur"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:159
+msgid "6 Chars min."
+msgstr "6 carac. min. "
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:168
+msgid "Language"
+msgstr "Langue "
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:171
+#: ../templates/backend/paysite_cash_configuration_panel.php:49
+msgid "French"
+msgstr "Français"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:172
+#: ../templates/backend/paysite_cash_configuration_panel.php:50
+msgid "English"
+msgstr "Anglais"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:173
+msgid "Italian"
+msgstr "Italien"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:180
+msgid "Save"
+msgstr "Enregistrer"
+
+#: ../templates/backend/paysite_cash_account_creation_interface.php:182
+msgid "A problem to create your account ? Do it on Paysite Cash !"
+msgstr ""
+"Un problème pour créer votre compte ? Faites-le sur le site de Paysite Cash !"
+
+#: ../templates/backend/paysite_cash_account_informations.php:1
+msgid "Your Paysite cash's account informations"
+msgstr "Vos informations de compte marchand Paysite Cash."
+
+#: ../templates/backend/paysite_cash_account_informations.php:3
+msgid "Name"
+msgstr "Nom"
+
+#: ../templates/backend/paysite_cash_account_informations.php:5
+msgid "Paysite cash's username"
+msgstr "Nom d'utilisateur"
+
+#: ../templates/backend/paysite_cash_account_informations.php:10
+msgid "Your business"
+msgstr "Votre activité"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:7
+msgid "You do not have a Paysite cash account ?"
+msgstr "Vous n'avez pas de compte Paysite Cash ?"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:7
+msgid "Create it, it is free !"
+msgstr "Créez-en un, c'est gratuit !"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:16
+msgid "Paysite Cash general configurations"
+msgstr "Configurations générales du module Paysite Cash"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:21
+msgid "Your Paysite Cash's site ID"
+msgstr "L'identifiant de votre site sur Paysite Cash"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:28
+msgid "Currency"
+msgstr "Devise"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:31
+msgid "Euros (€)"
+msgstr "Euros (€)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:32
+msgid "American Dollars ($)"
+msgstr "Dollars Américain ($)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:33
+msgid "Swiss Franc (CHF)"
+msgstr "Franc suisse (CHF)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:34
+msgid "Canadian Dollars ($)"
+msgstr "Dollars Canadien ($)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:35
+msgid "Pound (£)"
+msgstr "Livre sterling (£)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:36
+msgid "Latvian Litas (LTL)"
+msgstr "Litas Lituanien (LTL)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:37
+msgid "Roman Lei (RON)"
+msgstr "Lei Roumain (RON)"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:46
+msgid "Lang"
+msgstr "Langue"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:56
+msgid "Waiting confirmation before accept payment"
+msgstr "Attendre la confirmation avant d'accepter le paiement"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:59
+#: ../templates/backend/paysite_cash_configuration_panel.php:72
+#: ../templates/backend/paysite_cash_configuration_panel.php:82
+msgid "No"
+msgstr "Non"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:60
+#: ../templates/backend/paysite_cash_configuration_panel.php:73
+#: ../templates/backend/paysite_cash_configuration_panel.php:83
+msgid "Yes"
+msgstr "Oui"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:69
+msgid "Test mode"
+msgstr "Mode Test"
+
+#: ../templates/backend/paysite_cash_configuration_panel.php:79
+msgid "Active Debug Mode"
+msgstr "Activer le mode Débuggage"
+
+#: ../templates/frontend/paysite_cash_form.php:1
+msgid "Redirect to the Paysite Cash website in progress, please wait..."
+msgstr "Redirection vers l'interface de payment Paysite Cash"
+
+#: ../templates/frontend/paysite_cash_form.php:14
+msgid "Connexion"
+msgstr "Connexion"
+
+#~ msgid "Your company name"
+#~ msgstr "Le nom de votre société"
+
+#~ msgid "Country ISO code with 3 chararcters"
+#~ msgstr "Code ISO Pays (3 caractères)"
+
+#~ msgid "Graphic configuration of your Paysite Cash payment page"
+#~ msgstr "Configuration graphique de la page Paysite Cash"

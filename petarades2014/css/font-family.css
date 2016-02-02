@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Avenir";
+    src: url('../fonts/AvenirLTStd-Roman.otf');
+}
+
+@font-face {
+    font-family: "Avenir";
+    font-weight: heavy;
+    src: url('../fonts/AvenirLTStd-Heavy.otf');
+}
+
+@font-face {
+    font-family: "Gaeilge";
+    src: url('../fonts/gaeilge.ttf');
+}

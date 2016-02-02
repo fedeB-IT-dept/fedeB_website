@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp3config>
+  <autostart>false</autostart>
+  <shuffle>true</shuffle>
+  <repeat>all</repeat>
+  <volume>50</volume>
+  <showdisplay>true</showdisplay>
+  <showplaylist>true</showplaylist>
+  <linktarget>_top</linktarget>
+  <backcolor>0xFFFFFF</backcolor>
+  <frontcolor>0x000000</frontcolor>
+  <lightcolor>0xA81414</lightcolor>
+  <jpgfile>C:\\\\Users\\Max\\Documents\\Frere X34\\Site Web\\player.png</jpgfile>
+</mp3config>

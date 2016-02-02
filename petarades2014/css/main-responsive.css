@@ -1,0 +1,19 @@
+.screen,.tablette,.smartphone {position:fixed;}
+
+@media (min-width:50em) {
+    .screen {display:block;}.tablette {display:none;}.smartphone {display:none;}
+    
+    .compteur {width:570px;margin-left:350px;}
+}
+
+@media (max-width:49.938em) and (min-width:32.5em) {
+    .screen {display:none;}.tablette {display:block;}.smartphone {display:none;}
+        
+    .compteur {width:430px;margin-left:160px;}
+}
+
+@media (max-width:32.438em) {
+    .screen {display:none;}.tablette {display:none;}.smartphone {display:block;}
+        
+    .compteur {width:300px;margin-left:25px;}
+}
